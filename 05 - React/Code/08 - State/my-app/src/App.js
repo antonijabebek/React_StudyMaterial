@@ -1,13 +1,17 @@
+import { Component } from 'react';
 import './App.css';
 import Car from './Components/Car';
 import City from './Components/City'
-
+import Counter from './Components/Components';
 function App() {
   return (
-    <div className="App">
+    <div>
+{ Car}
+{Component}
+{City}
+
       
     </div>
   );
 }
 
-export default App;
